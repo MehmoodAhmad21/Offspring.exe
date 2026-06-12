@@ -1,0 +1,82 @@
+.report {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e2e4df;
+  border-radius: 12px;
+  padding: 14px 16px 16px;
+}
+
+.cardHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #eef0ec;
+  padding-bottom: 6px;
+}
+
+.cardTitle {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #1b2838;
+  margin: 0;
+}
+
+.cardSub {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.68rem;
+  color: #8a949c;
+}
+
+/* Index distribution bar */
+.rampBar {
+  position: relative;
+  height: 22px;
+  border-radius: 6px;
+  margin: 14px 0 8px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.rampBand {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(27, 40, 56, 0.22);
+  border-left: 1px dashed rgba(255, 255, 255, 0.7);
+  border-right: 1px dashed rgba(255, 255, 255, 0.7);
+}
+
+.rampMarker {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  width: 3px;
+  margin-left: -1.5px;
+  background: #1b2838;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.85);
+}
+
+.rampAxis {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.72rem;
+  color: #6a7782;
+}
+
+.rampValue {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.74rem;
+  color: #3b6e91;
+  font-variant-numeric: tabular-nums;
+}

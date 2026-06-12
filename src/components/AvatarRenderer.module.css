@@ -1,0 +1,27 @@
+.frame {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 360px;
+  padding: 12px;
+  background:
+    linear-gradient(180deg, #ffffff 0%, #f4f6f4 100%);
+  border: 1px solid #e2e4df;
+  border-radius: 12px;
+}
+
+.stage {
+  width: 100%;
+  max-width: 270px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transition: height 240ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stage {
+    transition: none;
+  }
+}
