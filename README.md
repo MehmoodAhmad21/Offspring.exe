@@ -1,4 +1,4 @@
-# GenePool
+# Offspring.exe
 
 A small genetics toy you run in the browser. Give it two parents' trait
 profiles and it simulates 20,000 possible kids, then draws an SVG avatar of the

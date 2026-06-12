@@ -1,4 +1,4 @@
-// GenePool — top-level app. Holds both parent profiles, runs the simulation on
+// Offspring.exe — top-level app. Holds both parent profiles, runs the simulation on
 // explicit button press, and renders the avatar + probability report.
 
 import { useMemo, useState } from 'react';
@@ -75,7 +75,7 @@ export default function App() {
         <div className={styles.brand}>
           <img src="/dna.svg" alt="" className={styles.logo} width={36} height={36} />
           <div>
-            <h1 className={styles.h1}>GenePool</h1>
+            <h1 className={styles.h1}>Offspring.exe</h1>
             <p className={styles.tagline}>
               Offspring trait simulator &middot; Mendelian &amp; polygenic
               inheritance
@@ -169,7 +169,7 @@ export default function App() {
 
       <footer className={styles.footer}>
         <span>
-          GenePool · client-side simulation · no data leaves your browser
+          Offspring.exe · client-side simulation · no data leaves your browser
         </span>
       </footer>
     </div>

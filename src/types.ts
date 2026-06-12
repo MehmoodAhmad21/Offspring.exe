@@ -1,4 +1,4 @@
-// Shared types/interfaces for the GenePool simulator.
+// Shared types/interfaces for the Offspring.exe simulator.
 
 /** A pseudo-random number generator returning a float in [0, 1). */
 export type RNG = () => number;

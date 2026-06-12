@@ -1,9 +1,9 @@
 {
-  "name": "genepool",
+  "name": "offspring.exe",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "GenePool — an educational genetics simulator with procedurally generated offspring avatar",
+  "description": "Offspring.exe — an educational genetics simulator with procedurally generated offspring avatar",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
